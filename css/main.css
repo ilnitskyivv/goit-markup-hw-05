@@ -137,6 +137,7 @@ padding-bottom: 32px;
 .site-nav__link:hover,
 .site-nav__link:focus {
 color: var(--accent-color);
+transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-nav__link--current {
@@ -184,6 +185,7 @@ color: var(--secondary-text-color);
 .contacts-nav__link:focus {
 color: var(--accent-color);
 --color6: var(--accent-color);
+transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-contacts {
@@ -441,10 +443,9 @@ border-radius:50%;
 
 .socials__link:hover,
 .socials__link:focus {
-/* border-radius:50%; */
 background-color: var(--accent-color);
 --color4: var(--primary-white-color);
-transition: 300ms linear;
+transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Clients section */
@@ -482,6 +483,7 @@ border: 1px solid var(--clients-logos-bg)
 .clients__rectangle:focus {
 border-color: #2196F3;
 --color4: var(--accent-color);
+transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-clients {
